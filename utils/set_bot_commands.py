@@ -3,7 +3,7 @@ from aiogram.types import BotCommand, BotCommandScopeDefault
 cmds_list = [
         ['start', 'Старт'],
         ['cardio', 'Добавить кардио тренировку'],
-        ['climb', 'Добавить лазательную тренировку']
+        ['climbing', 'Добавить лазательную тренировку']
 ]
 
 async def set_default_commands(bot): 

@@ -8,3 +8,10 @@ class Cardio(StatesGroup):
     is_competition  = State()
     pay_debt        = State()
     send            = State()
+
+class Climbing(StatesGroup):
+    climbing_start    = State()
+    type              = State()
+    date              = State()
+    is_competition    = State()
+    send              = State()
