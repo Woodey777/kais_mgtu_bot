@@ -88,7 +88,7 @@ async def get_date(message: Message, state: FSMContext):
     calendar = SimpleCalendar(
         locale=await get_user_locale(message.from_user), show_alerts=True
     )
-    calendar.set_dates_range(datetime(2024, 10, 1), datetime(2024, 11, 1))
+    calendar.set_dates_range(datetime(2024, 10, 1), datetime(2024, 11, 1))  #TODO: на основе текущей даты
     await message.answer(
         "Выберите дату",
         reply_markup=await calendar.start_calendar(year=2024, month=10)

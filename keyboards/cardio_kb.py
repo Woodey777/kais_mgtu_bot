@@ -1,5 +1,4 @@
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from aiogram.filters import Command
 
 def cardio_type_kb() -> InlineKeyboardMarkup:
     kb_list = [
